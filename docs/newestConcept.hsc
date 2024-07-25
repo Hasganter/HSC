@@ -60,3 +60,14 @@ strings are denoted with double quotes ("...")
 while characters are denoted with single quotes ('..')
 ###
 
+array arr = ("one", "two", "three", "four", "five")
+
+for i in arr {
+  out(i);
+}
+
+for (s i : arr) {
+  out(i);
+}
+
+# two ways for loops can be used, might change later
