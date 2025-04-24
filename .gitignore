@@ -1,3 +1,10 @@
+# VSC
+.vscode/*
+.vscode/launch.json
+
+# hsc md files (temporary)
+hsc-support/*.md
+
 # Prerequisites
 *.d
 
