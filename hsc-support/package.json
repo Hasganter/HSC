@@ -1,0 +1,26 @@
+{
+  "name": "hsc-support",
+  "displayName": "HSC support",
+  "description": "Hasganter's simple code VSC extension, color support and more!",
+  "main": "./extension.js",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hsc",
+      "aliases": ["HSC", "hsc"],
+      "extensions": [".hsc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hsc",
+      "scopeName": "src.hsc",
+      "path": "./syntaxes/hsc.tmLanguage.json"
+    }]
+  }
+}
